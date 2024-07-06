@@ -38,36 +38,36 @@ for subject in subjects:
 
 # Display 2nd and 5th elements of the list
 print("\n2nd and 5th subjects:")
-print(subjects[1])  # Index 1 corresponds to the 2nd element
-print(subjects[4])  # Index 4 corresponds to the 5th element
+print(subjects[1])  
+print(subjects[4])  
 
 # Display first 4 elements of the list using the range of indexes
 print("\nFirst 4 subjects:")
-print(subjects[:4])  # Slices from the start to index 4 (exclusive)
+print(subjects[:4])  
 
 # Display last 4 elements of the list using the range of negative indexes
 print("\nLast 4 subjects:")
-print(subjects[-4:])  # Slices from the 4th last element to the end
+print(subjects[-4:])  
 
 # Check if "Python Programming Lab" is available in the list
 print("\nCheck if 'Python Programming Lab' is in the list:")
 print("Python Programming Lab" in subjects)
 
 # Demonstrate the working of append() and insert() functions
-subjects.append("Artificial Intelligence")  # Adds an element to the end
+subjects.append("Artificial Intelligence")  
 print("\nAfter appending 'Artificial Intelligence':")
 print(subjects)
 
-subjects.insert(3, "Machine Learning")  # Inserts an element at index 3
+subjects.insert(3, "Machine Learning")  
 print("\nAfter inserting 'Machine Learning' at index 3:")
 print(subjects)
 
 # Demonstrate the working of remove() and pop() functions
-subjects.remove("Software Engineering")  # Removes the first occurrence of the element
+subjects.remove("Software Engineering") 
 print("\nAfter removing 'Software Engineering':")
 print(subjects)
 
-removed_subject = subjects.pop()  # Removes and returns the last element
+removed_subject = subjects.pop()  
 print(f"\nAfter popping the last element '{removed_subject}':")
 print(subjects)
 
